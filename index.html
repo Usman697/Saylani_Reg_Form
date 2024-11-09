@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div align="center">
+        <img src="./asset/saylani img.png" alt="">
+    </div>
+    <form>
+        <table cellpadding="5px" style="width: 900px;" align="center">
+            <tr>
+                <td style="width: 50%;">
+                    <label style="margin-left: 30px; display: inline-block; margin-bottom: 5px; color: #0d6db7;" for="city">Select City</label><br>
+                    <select required style="width: 450px; padding: 10px; height: 50px; margin-left: 30px; border-radius: 5px; border: 1px solid #d9d9d9;  border-color: #8dc63f;" name="city" id="city">
+                        <option value="">Select Your City</option>
+                        <option value="Karachi">Karachi</option>
+                        <option value="Faislabad">Faislabad</option>
+                        <option value="Islamabad">Islamabad</option>
+                        <option value="Peshawar">Peshawar</option>
+                    </select>
+                </td>
+                <td style="width: 50%;">
+                    <label style="margin-left: 30px; display: inline-block; margin-bottom: 5px; color: #0d6db7;" for="course">Select course or events</label><br>
+                    <select required style="width: 450px; padding: 10px; height: 50px; margin-left: 30px; border-radius: 5px; border: 1px solid #d9d9d9;  border-color: #8dc63f;" name="Course" id="course">
+                        <option value="">Select course or events</option>
+                        <option value="Web-and-Mobile-Development">Web and Mobile Development</option>
+                        <option value="CCTV-Installtion">CCTV Installtion</option>
+                        <option value="Flutter-Programming">Flutter Programming</option>
+                        <option value="Python-Programming">Python Programming</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 50%;">
+                    <label style="margin-left: 30px; display: inline-block; margin-bottom: 5px; color: #0d6db7;" for="campus">Select Campus</label><br>
+                    <select required style="width: 450px; padding: 10px; height: 50px; margin-left: 30px; border-radius: 5px; border: 1px solid #d9d9d9;  border-color: #8dc63f;" name="Campus" id="campus">
+                        <option value="">Select Campus</option>
+                        <option value="Bahadrabad">Bhadarabad</option>
+                        <option value="Gulshan-Campus">Gulshan Campus</option>
+                        <option value="Paposh-Campus">Paposh Campus</option>
+                        <option value="Numaish-Campus">Numaish Campus</option>
+                    </select>
+                </td>
+                <td style="width: 50%;">
+                    <label style="display: inline-block; margin-bottom: 5px; margin-left: 30px; color: #0d6db7;" for="time">Select Class Prefrence</label><br>
+                    <select required style="width: 450px; padding: 10px; height: 50px; margin-left: 30px; border-radius: 5px; border: 1px solid #d9d9d9;  border-color: #8dc63f;" name="Day-and-Timing" id="time">
+                        <option value="">Select Class Prefrence</option>
+                        <option value="Weekdays">Weekday</option>
+                        <option value="Weekends">Weekends</option>
+                        <option value="Both">Both</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label style="display: inline-block; margin-bottom: 5px; margin-left: 30px; color: #0d6db7;" for="full-name">Full Name</label>
+                    <input required style="width: 430px; padding: 10px; height: 28px; margin-left: 30px; border-radius: 5px; border: 1px solid #d9d9d9;  border-color: #8dc63f; " type="text" name="full-Name" id="full-name" placeholder="Full Name">
+                </td>
+                <td>
+                    <label style="display: inline-block; margin-bottom: 5px; margin-left: 30px; color: #0d6db7;" for="father-name">Father Name</label>
+                    <input required style="width: 430px; padding: 10px; height: 28px; margin-left: 30px; border-radius: 5px; border: 1px solid #d9d9d9;  border-color: #8dc63f; " type="text" name="father-Name" id="father-Name" placeholder="Father Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label style="display: inline-block; margin-bottom: 5px; margin-left: 30px; color: #0d6db7;" for="email">Email</label>
+                    <input required style="width: 430px; padding: 10px; height: 28px; margin-left: 30px; border-radius: 5px; border: 1px solid #d9d9d9;  border-color: #8dc63f; " type="email" name="Email" id="email" placeholder="Email">
+                </td>
+                <td>
+                    <label style="display: inline-block; margin-bottom: 5px; margin-left: 30px; color: #0d6db7;" for="phone">Phone</label>
+                    <input required style="width: 430px; padding: 10px; height: 28px; margin-left: 30px; border-radius: 5px; border: 1px solid #d9d9d9;  border-color: #8dc63f; " type="number" name="Mobile_number" id="Mobile_number" placeholder="Phone">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label style="display: inline-block; margin-bottom: 5px; margin-left: 30px; color: #0d6db7;" for="cnic">CNIC</label>
+                    <input required style="width: 430px; padding: 10px; height: 28px; margin-left: 30px; border-radius: 5px; border: 1px solid #d9d9d9;  border-color: #8dc63f; " type="number" name="cnic_number" id="cnic" placeholder="Phone">
+                </td>
+                <td>
+                    <label style="display: inline-block; margin-bottom: 5px; margin-left: 30px; color: #0d6db7;" for="father_cnic">Father's CNIC</label>
+                    <input required style="width: 430px; padding: 10px; height: 28px; margin-left: 30px; border-radius: 5px; border: 1px solid #d9d9d9;  border-color: #8dc63f; " type="number" name="father_cnic" id="father_cnic" placeholder="Father's CNIC">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label style="display: inline-block; margin-bottom: 5px; margin-left: 30px; color: #0d6db7;" for="date">Date Of Birth</label>
+                    <input required style="width: 430px; padding: 10px; height: 28px; margin-left: 30px; border-radius: 5px; border: 1px solid #d9d9d9;  border-color: #8dc63f; " type="date" name="Date_of_birth" id="date">
+                </td>
+                <td style="width: 50%;">
+                    <label style="display: inline-block; margin-bottom: 5px; margin-left: 30px; color: #0d6db7;" for="gender">Select Gender</label><br>
+                    <select required style="width: 450px; padding: 10px; height: 50px; margin-left: 30px; border-radius: 5px; border: 1px solid #d9d9d9;  border-color: #8dc63f;" name="Gender" id="gender">
+                        <option value="">Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label style="display: inline-block; margin-bottom: 5px; margin-left: 30px; color: #0d6db7;" for="Address">Address</label><br>
+                    <input required style="width: 925px; padding: 10px; height: 28px; margin-left: 30px; border-radius: 5px; border: 1px solid #d9d9d9;  border-color: #8dc63f; " type="text" name="Address" id="address">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="width: 50%;">
+                    <label style="display: inline-block; margin-bottom: 5px; margin-left: 30px; color: #0d6db7;" for="qualification">Select Qualification</label><br>
+                    <select required style="width:945px; padding: 10px; height: 50px; margin-left: 30px; border-radius: 5px; border: 1px solid #d9d9d9;  border-color: #8dc63f;" name="Qualification" id="qualification">
+                        <option value="">Qualification</option>
+                        <option value="Middle">Middle</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Undergraduate">Undergraduate</option>
+                        <option value="Graduate">Graduate</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="width: 50%;">
+                    <label  style="display: inline-block; margin-bottom: 5px; margin-left: 30px; color: #0d6db7;" for="qualification">Do You have Laptop</label><br>
+                    <select required style="width:945px; padding: 10px; height: 50px; margin-left: 30px; border-radius: 5px; border: 1px solid #d9d9d9;  border-color: #8dc63f;" name="Qualification" id="laptop">
+                        <option value="">Do You have Laptop</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">NO</option>
+                    </select>
+                </td>
+            </tr>
+           
+            <tr>
+                <td colspan="2">
+                    <button onclick="saylaniForm()" style="border-radius: 5px; border: none; background-color: #0d6db7; width: 945px; height: 50px; color: #fff; font-size: 15px; display: inline-block; margin-left: 30px;"  name="" id="">submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
